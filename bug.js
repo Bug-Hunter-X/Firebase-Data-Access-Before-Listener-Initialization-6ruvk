@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access data from a listener before the listener has been fully initialized. This can happen if you attempt to read data from a `snapshot` in the `onValue` callback before the callback itself has fully executed.
