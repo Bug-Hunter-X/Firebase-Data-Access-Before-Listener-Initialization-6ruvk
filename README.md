@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase development: attempting to access data from a listener before it's fully initialized.  The `bug.js` file shows the problematic code, while `bugSolution.js` presents the corrected version. The issue often leads to unexpected behavior and undefined data errors, especially when using real-time databases or Firestore.
